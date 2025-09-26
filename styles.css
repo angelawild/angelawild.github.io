@@ -1,0 +1,106 @@
+
+/*CSS FILE FOR AUDIO TOUR*/ 
+
+
+/* General Page Styling */
+
+body {
+  background-color: #222222;
+}
+
+/*Video Styling */
+
+.video-flex-container {
+  display: flex;
+  height: 700px;
+  width: 1050px:
+  flex-wrap: wrap;
+  align-content: stretch;
+  overflow: scroll;  
+  background-color: #222222;
+}
+
+.video-flex-container > iframe {
+  background-color: #222222;
+  width: 1050px;
+  height: 1000px <!--1720px;-->
+}
+
+/*Arrows Panel Styling */
+
+.arrows-flex-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.arrows.flex-container > img {
+  width: 1050px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+/*Icon Styling */
+
+.flex-container0 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #222222;
+  width: 0px;
+}
+
+.flex-container0 > img {
+  width: 0px;
+  margin: 19px;
+  
+}
+
+.flex-container1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  width: 0px;
+} 
+
+.flex-container1 > img {
+  width: 0px;
+  margin: 19px;
+
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  width: 0px;
+}
+
+.flex-container2 > img {
+  width: 0px;
+  margin: 19px;
+}
+ 
+/* If the screen size is 370px wide or less, make the video-flex-container lenght 500px */
+@media only screen and (max-width: 370px) {
+    .video-flex-container {
+		height: 480px;
+	}
+   }
+
+@media only screen and (max-width: 370px) {
+    .arrows-flex-container {
+		 margin-top: 20px;
+     margin-bottom: 100px;
+	}
+   }
+
+/* If the screen size is 360px wide or less, make the video-flex-container lenght 640px */
+@media only screen and (max-width: 390px) {
+    .video-flex-container {
+		height: 640px;
+	}
+   }
