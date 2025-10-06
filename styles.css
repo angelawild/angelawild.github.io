@@ -13,7 +13,7 @@ body {
 .video-flex-container {
   display: flex;
   height: 700px;
-  width: 1050px:
+  width: 1050px;
   flex-wrap: wrap;
   align-content: stretch;
   overflow: scroll;  
@@ -23,7 +23,7 @@ body {
 .video-flex-container > iframe {
   background-color: #222222;
   width: 1050px;
-  height: 1000px <!--1720px;-->
+  height: 1000px 
 }
 
 /*Arrows Panel Styling */
@@ -99,26 +99,24 @@ body {
    }
 
 /* If the screen size is 375px wide or less, make the video-flex-container lenght 1000px (iphone SE)*/
-@media only screen (min-width: 374px) and (max-width: 376px) {
+@media only screen and (min-width: 374px) and (max-width: 376px) {
     .video-flex-container {
-		height: 1000px;
+		height: 670px;
 	}
-   }
+
 
 
 
 /* If the screen size is 360px wide or less, make the video-flex-container lenght 616px (Galaxy 8+)*/
-@media only screen (min-width: 359px) and (max-width: 361px) {
+@media only screen and (min-width: 359px) and (max-width: 361px) {
     .video-flex-container {
 		height: 610px;
 	}
-   }
+  
 
 /* If the screen size is 430px wide or less, make the video-flex-container lenght 736px (iphone 14 Pro Max)*/
-@media only screen and (min-width: 479px)and (max-width: 481px) {
+@media only screen and (min-width: 479px) and (max-width: 481px) {
     .video-flex-container {
 		height: 736px;
 	}
-   }
-
-
+	}
