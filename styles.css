@@ -98,9 +98,9 @@ body {
 	}
    }
 
-/* If the screen size is 360px wide or less, make the video-flex-container lenght 570px */
+/* If the screen size is 360px wide or less, make the video-flex-container lenght 590px */
 @media only screen and (max-width: 390px) {
     .video-flex-container {
-		height: 570px;
+		height: 590px;
 	}
    }
