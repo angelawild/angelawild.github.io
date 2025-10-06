@@ -1,0 +1,90 @@
+
+/*CSS FILE FOR AUDIO TOUR*/ 
+
+
+/* General Page Styling */
+
+body {
+  background-color: #222222;
+}
+
+/*Video Styling */
+
+.video-flex-container {
+  display: flex;
+  height: 1000px;
+  width: 400px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  overflow: scroll;  
+  background-color: #222222;
+}
+
+.video-flex-container > iframe {
+  background-color: #222222;
+  width: 400px;
+  height: 1000px 
+}
+
+/*Arrows Panel Styling */
+
+.arrows-flex-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222222;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.arrows.flex-container > img {
+  width: 1050px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+/*Icon Styling */
+
+.flex-container0 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #222222;
+  width: 0px;
+}
+
+.flex-container0 > img {
+  width: 0px;
+  margin: 19px;
+  
+}
+
+.flex-container1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  width: 0px;
+} 
+
+.flex-container1 > img {
+  width: 0px;
+  margin: 19px;
+
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  width: 0px;
+}
+
+.flex-container2 > img {
+  width: 0px;
+  margin: 19px;
+}
+ 
+
+
+
+
