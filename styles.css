@@ -101,7 +101,7 @@ body {
 /* If the screen size is 375px wide or less, make the video-flex-container lenght 1000px (iphone SE)*/
 @media only screen and (min-width: 374px) and (max-width: 376px) {
     .video-flex-container {
-		height: 1400px;
+		height: 1600px;
 	}
 
 
