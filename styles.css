@@ -102,7 +102,7 @@ body {
 /* If the screen size is 360px, make the video-flex-container lenght 602px (Galaxy 8+)*/
 @media only screen and (min-width: 359px) and (max-width: 361px) {
     .video-flex-container {
-		height: 602px;
+		height: 610px;
 	}
   }
 
