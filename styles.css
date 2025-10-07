@@ -99,16 +99,23 @@ body {
    }
 
 
-/* If the screen size is 360px, make the video-flex-container lenght 602px (Galaxy 8+)*/
+/* If the screen size is 360px, make the video-flex-container lenght 610px (Galaxy 8+)*/
 @media only screen and (min-width: 359px) and (max-width: 361px) {
     .video-flex-container {
 		height: 610px;
 	}
   }
 
-/* If the screen size is 390px, make the video-flex-container lenght 602px (iphone 12 PRO )*/
+/* If the screen size is 390px, make the video-flex-container lenght 650px (iphone 12 PRO )*/
 @media only screen and (min-width: 389px) and (max-width: 391px) {
     .video-flex-container {
 		height: 650px;
+	}
+  }
+
+/* If the screen size is 430px, make the video-flex-container lenght 700px (iphone 14 PRO MAX)*/
+@media only screen and (min-width: 389px) and (max-width: 391px) {
+    .video-flex-container {
+		height: 720px;
 	}
   }
