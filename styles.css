@@ -116,6 +116,6 @@ body {
 /* If the screen size is 430px, make the video-flex-container lenght 700px (iphone 14 PRO MAX)*/
 @media only screen and (min-width: 429px) and (max-width: 431px) {
     .video-flex-container {
-		height: 720px;
+		height: 736px;
 	}
   }
