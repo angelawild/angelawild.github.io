@@ -109,7 +109,7 @@ body {
 /* If the screen size is 390px, make the video-flex-container lenght 650px (iphone 12 PRO )*/
 @media only screen and (min-width: 389px) and (max-width: 391px) {
     .video-flex-container {
-		height: 650px;
+		height: 660px;
 	}
   }
 
